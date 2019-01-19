@@ -1,0 +1,24 @@
+p,h1,h2{
+  text-align: left;
+  font-style: inherit;
+  font-weight: 8;
+  font-family: monospace;
+}
+
+h2{
+  color:#732088;
+}
+
+.webtext{
+  color:blueviolet;
+}
+
+body{
+  background-color: #1d1d1d;
+  color: white;
+}
+
+.image-link{
+  text-decoration: none;
+}
+
