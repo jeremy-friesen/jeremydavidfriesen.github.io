@@ -5,8 +5,19 @@ p,h1,h2{
   font-family: monospace;
 }
 
+h3,p{
+  font-weight:20;
+  font-size: 15px;
+  color:#E2C08D;
+}
+
 h2{
-  color:#732088;
+  color:#72C68F;
+}
+
+h1{
+  color:#CE9178;
+  font-family: monospace;
 }
 
 .webtext{
@@ -20,5 +31,68 @@ body{
 
 .image-link{
   text-decoration: none;
+}
+
+/* Add a black background color to the top navigation */
+#navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+#navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: monospace;
+  display: block;
+}
+
+#navbar n {
+  float: left;
+  text-align: center;
+  padding: 10px 8px 10px 0px;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: monospace;
+  display: block;
+}
+
+#navbar fn {
+  float: left;
+  text-align: center;
+  padding: 10px 8px 10px 14px;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: monospace;
+}
+
+/* Change the color of links on hover */
+#navbar a:hover {
+  background-color: #689955;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
