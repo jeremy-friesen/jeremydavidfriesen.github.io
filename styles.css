@@ -1,14 +1,19 @@
-p,h1,h2{
+h1,h2{
   text-align: left;
   font-style: inherit;
-  font-weight: 8;
   font-family: monospace;
 }
 
 h3,p{
-  font-weight:20;
   font-size: 15px;
-  color:#E2C08D;
+  color:pink;
+  text-indent: 2.0em;
+  font-family: monospace;
+  margin-right: 200px;
+}
+
+h3{
+  font-weight: 10;
 }
 
 h2{
@@ -16,7 +21,7 @@ h2{
 }
 
 h1{
-  color:#CE9178;
+  color:white;
   font-family: monospace;
 }
 
@@ -94,5 +99,9 @@ body{
 
 .sticky + .content {
   padding-top: 60px;
+}
+
+a {
+  color:lightblue;
 }
 
