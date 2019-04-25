@@ -25,6 +25,12 @@ h1{
   font-family: monospace;
 }
 
+span{
+  font-family: monospace;
+  /*font-size: 25px;*/
+  /*size: 1.5em;*/
+}
+
 .webtext{
   color:blueviolet;
 }
@@ -105,3 +111,10 @@ a {
   color:lightblue;
 }
 
+ul li {
+  color: white;
+  fill: white;
+  font-size: 18px;
+  font-family: monospace; 
+  padding: 0px;
+}
